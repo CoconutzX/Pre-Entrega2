@@ -1,0 +1,55 @@
+@media screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+}
+
+@media only screen 
+and (min-width : 1224px) {
+
+}
+
+* { background-color: black;}
+
+.titulo {
+    background-color: #2B50AA;
+    font-size: 500px;
+    font-family: 'Nabla', cursive;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu {  
+    display: flex;
+    position: relative;
+    padding: 12px 20px;
+    background-color: #272727;
+    font-family: 'Nabla', cursive;
+    margin-left: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+           
+}
+
+.cuerpo-investigacion {
+    display: flex;
+    background-color: blue;
+    border: 10px solid black;
+    gap: 10px;
+    color: white;
+    
+}
+
+a:hover {
+    border-style: none;
+    color: red;
+    background-color: black;
+}
+
+.cuerpo-juegos {
+    display: grid;
+    background-color: blue;
+    grid-row: 2 / 4;
+    grid-column: 1 / 4;
+    color: white;
+}
